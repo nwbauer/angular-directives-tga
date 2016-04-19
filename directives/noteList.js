@@ -6,6 +6,8 @@ angular.module('notebook.directives', ['NoteService'])
   return {
 
     //how should I look?
+    //(notice that this directive contains the directive <my-note>
+    //so we are composing a larger directive out of smaller ones)
     template: '<div>Times Clicked: {{numberClicked}}</div><my-note index="$index" note="::singleNote" ng-repeat="singleNote in notes"></my-note>',
 
     //isolated scope so that I create my own universe
