@@ -19,6 +19,7 @@ angular.module('notebook.directives')
     link: function(scope, elem, attrs) {
 
       //register a behavior
+      //(if you include jQuery, then elem is a jQuery object)
       elem.on('click', function(event){
 
         //based on my state, update the interface

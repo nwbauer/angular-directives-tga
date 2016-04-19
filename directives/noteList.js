@@ -24,7 +24,7 @@ angular.module('notebook.directives', ['NoteService'])
 
 
       //=============================
-      //react to events that other directives emit
+      //react to events that other directives/services emit
       //teamwork!
       $scope.$on('note:clicked', function(){
 
