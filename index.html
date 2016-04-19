@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="notebook">
+
+<head>
+  <meta charset="utf-8">
+  <title>notebook</title>
+</head>
+
+<body>
+
+  <div class="app-wrapper">
+    <h1>Notes!</h1>
+    <note-list></note-list>
+  </div>
+
+  <!-- dependencies -->
+  <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="   crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
+
+  <!-- app -->
+  <script src="services/noteFactory.js"></script>
+  <script src="directives/noteList.js"></script>
+  <script src="directives/note.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
